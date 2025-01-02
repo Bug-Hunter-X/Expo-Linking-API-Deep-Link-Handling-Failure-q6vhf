@@ -1,0 +1,1 @@
+This error occurs when using Expo's `Linking` API to handle deep links.  The app might not properly register the deep link URL scheme or handle the response from `Linking.getInitialURLAsync`. This often leads to unexpected behavior where deep links fail to open the app or trigger the intended action.  Sometimes the error isn't explicitly shown, leading to silent failures.
